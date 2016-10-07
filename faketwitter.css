@@ -13,7 +13,11 @@ a:link {
 }
 
 a:hover{
-	border-bottom: 2px solid: #9E0002;
+	border-bottom: 2px solid #9E0002;
+}
+
+a:active{
+	border-bottom: 2px solid #9E0002;
 }
 
 .btn:hover{
@@ -22,12 +26,5 @@ a:hover{
 
 .btn:hover .line{
 	display: block;
-}
-
-.line{
-	width: 80px;
-	height: 5px;
-	background-color: #9E0002;
-	margin-top: 10px;
 }
 
